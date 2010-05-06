@@ -12,7 +12,7 @@
             $this->servername = 'localhost';
             $this->user = 'root';
             $this->password = '';
-            $this->dbname = 'login_register_db';
+            $this->dbname = 'sarco';
         }
 //Declaramos la funcion que nos permitira hacer la conexion con la base de datos
         public function connect(){

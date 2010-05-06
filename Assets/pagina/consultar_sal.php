@@ -43,7 +43,9 @@
         input[type="text"], input[type="submit"] { padding: 5px; margin-bottom: 10px; border-radius: 5px; border: 2px solid #ccc; }
         input[type="submit"] { cursor: pointer; background-color: #4CAF50; color: black; }
         #resultado { border:1px solid #ccc; padding: 20px; border-radius: 10px; margin-bottom: 2px; overflow-y: auto; }
+    
     </style>
+
 </head>
 <body>
     <div class="container">

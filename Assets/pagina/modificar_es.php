@@ -20,6 +20,8 @@ include '../menu.php';
       margin: 20px auto;
       max-width: 400px;
     }
+
+    
   </style>
 </head>
 <body>

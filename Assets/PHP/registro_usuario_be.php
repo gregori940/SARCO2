@@ -27,6 +27,7 @@ $query = "INSERT INTO usuarios(nombre_completo, Cedula, Usuario, contrasena)
 //verificar que el cedulusuario no se repita en la base de datos//
     $verificar_usuario = mysqli_query($conexion, "SELECT * FROM usuarios WHERE usuario = '$usuario'");
 
+
 if(mysqli_num_rows($verificar_usuario) > 0){
     echo '
     <script>

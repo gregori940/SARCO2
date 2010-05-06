@@ -34,6 +34,8 @@
         .form-button {
             margin-top: 10px;
         }
+
+        
     </style>
 </head>
 <body>
@@ -46,8 +48,20 @@
             <div class="form-button">
                 <input type="submit" value="Buscar">
             </div>
-        </form>
+           </form>
     </div>
+    </div>
+            <div class="form-button">
+                <input type="submit" value="Buscar">
+            </div>
+            </div>
+    <button class="my-button" onclick="atras()">Atras</button>
+
+<script>
+	function atras() {
+		window.location.href = "../welcome.php";
+	}
+    </script>
 </body>
 </html>
 

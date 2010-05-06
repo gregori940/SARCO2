@@ -23,28 +23,28 @@
             flex-direction: column;
             align-items: center;
             background-color: #fff;
-            padding: 20px;
+            padding: 10px;
             border-radius: 5px;
-            width: 50%;
+            width: 40%;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
         form {
             display: flex;
             flex-direction: column;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         label {
             margin-bottom: 5px;
         }
         input[type="text"], 
         input[type="submit"]
-         { padding: 5px; 
-            margin-bottom: 10px;
-             border-radius: 5px; 
+         { padding: 4px; 
+            margin-bottom: 5px;
+             border-radius: px; 
              border: 2px solid #ccc;
              }
         input[type="submit"] 
@@ -52,6 +52,8 @@
              background-color: #4CAF50;
               color: black;
              }
+
+             
     </style>
 </head>
 <body>

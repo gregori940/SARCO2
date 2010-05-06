@@ -1,19 +1,11 @@
-
-
 <!DOCTYPE html>
 <html>
   <head>
-
-  
-
-<?php include '../menu.php';?>
-
-
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de registro de representantes</title>
     
-    
+    <?php include '../menu.php';?>
 
 
     <style>
@@ -73,11 +65,11 @@
             <form>
                 <div class="form-field">
                     <label for="nombre">Nombre del Representante:</label>
-                    <input type="text" id="nombre" name="nombre" required>
+                    <input type="text" id="nomb_res" name="nomb_res" required>
                 </div>
                 <div class="form-field">
                     <label for="apellido">Apellido del Representante:</label>
-                    <input type="text" id="apellido" name="apellido" required>
+                    <input type="text" id="apell_res" name="apell_res" required>
                 </div>
                 <div class="form-field">
                     <label for="genero">Género del Representante:</label>

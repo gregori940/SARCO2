@@ -89,8 +89,8 @@
         setTimeout(() => {
           message.style.display = 'none';
         }, 3000);
-      }
-    }
+      
+    
 
     // Agregar representante a la tabla
     addStudentsToTable(students);

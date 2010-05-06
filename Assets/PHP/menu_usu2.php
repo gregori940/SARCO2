@@ -8,7 +8,6 @@
 </head>
 <body>
     <header>
-	
 
 
 
@@ -159,21 +158,6 @@ ul, ol {
 	right:-140px;
 	top:0px;
 }
-
-
-
-.my-button {
-	background-color: #4CAF50; /* Green */
-	border: none;
-	color: white;
-	padding: 15px 14px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-}
 </style>
 </head>
 
@@ -181,8 +165,7 @@ ul, ol {
 <table width="1200px" border="0" align="left">
      <tr class="Estilo3">
       <ul class="nav">
-          <li><a href="administrador.php">Inicio</a></li>
-		  
+          <li><a href="adinistrador.php">Inicio</a></li>
 
          
           </li>
@@ -191,8 +174,6 @@ ul, ol {
 
                 <li><a href="./pagina/consultar_es.php">consultar</a></li>
 				<li><a href=" ./pagina/registrar_es.php">registrar</a></li>
-				 <li><a href="./pagina/modificar_es.php">modificar</a></li>
-				 <li><a href="./pagina/eliminar_es.php">Eliminar</a></li>
 				 <li><a href="./pagina/reportes-es.php">Reportes</a></li>
 				 </ul>
 
@@ -202,8 +183,6 @@ ul, ol {
 
                 <li><a href="./pagina/consultar_res.php">consultar</a></li>
 				<li><a href=" ./pagina/registrar_res.php">registrar</a></li>
-				 <li><a href="./pagina/modificar_res.php">modificar</a></li>
-				 <li><a href="./pagina/eliminar_res.php">Eliminar</a></li>
 				 <li><a href="./pagina/reportes-res.php">Reportes</a></li>
 				 </ul>
 
@@ -212,8 +191,6 @@ ul, ol {
 			   <ul>
                       <li><a href="./pagina/registrar_sal.php">Registrar</a></li>
                       <li><a href="./pagina/consultar_sal.php">Consultar</a></li>
-					  <li><a href="./pagina/modificar_sal.php">Modificar</a></li>
-					  <li><a href="./pagina/eliminar_sal.php">Eliminar</a></li>
 					  <li><a href="./pagina/reportes_sal.php">Reportes</a></li>
                     </ul>
 
@@ -224,9 +201,7 @@ ul, ol {
                 <li><a href="./pagina/reportes_momen.php">Reportes</a></li>
 				<li><a href="./pagina/registrar_momen.php">Registrar</a></li>
 				<li><a href="./pagina/consultar_momen.php">Consultar</a></li>
-				<li><a href="./pagina/modificar_momen.php">Modificar</a></li>
-				<li><a href="./pagina/eliminar_momen.php">Eliminar</a></li>
-                </ul>
+				</ul>
             
             
           </li>
@@ -235,9 +210,7 @@ ul, ol {
 
 			         <li><a href="./pagina/registrar_maes.php">Registrar</a></li>
                       <li><a href="./pagina/consultar_maes.php">Consultar</a></li>
-					  <li><a href="./pagina/modificar_maes.php">Modificar</a></li>
-					  <li><a href="./pagina/eliminar_maes.php">Eliminar</a></li>
-					  <li><a href="./pagina/reportes_maes.php">Reportes</a></li>
+					 <li><a href="./pagina/reportes_maes.php">Reportes</a></li>
 					  </ul>
 
           </li>
@@ -247,8 +220,6 @@ ul, ol {
                 <li><a href="./pagina/reportes_ob.php">Reportes</a></li>
 				<li><a href="./pagina/registrar_ob.php">Registrar</a></li>
 				<li><a href="./pagina/consultar_ob.php">Consultar</a></li>
-				<li><a href="./pagina/reportes_ob.php">Modificar</a></li>
-				<li><a href="./pagina/eliminar_ob.php">Eliminar</a></li>
 				</ul>
 
           </li>
@@ -258,8 +229,6 @@ ul, ol {
                 <li><a href="./pagina/reportes_perio.php">Reportes</a></li>
 				<li><a href="./pagina/registrar_perio.php">Registrar</a></li>
 				<li><a href="./pagina/consultar-perio.php">Consultar</a></li>
-				<li><a href="./pagina/reportes_perio.php">Modificar</a></li>
-				<li><a href="./pagina/eliminar_perio.php">Eliminar</a></li>
 				</ul>
 
           </li>
@@ -268,8 +237,6 @@ ul, ol {
 
 			  <li><a href="./Pagina/registrar_res.php">Registrar</a></li>
 			  <li><a href="./Pagina/consultar_res.php">consultar</a></li>
-			  <li><a href="./Pagina/modificar_res.php">Modificar</a></li>
-			  <li><a href="./Pagina/eliminar_res.php">Eliminar</a></li>
 			  <li><a href="./Pagina/respaldo_res.php">Reportes</a></li>
               </ul>
 
@@ -279,9 +246,7 @@ ul, ol {
 
                 <li><a href="./pagina/registrar_repo.php">Registrar</a></li>
                 <li><a href="./pagina/consultar_repo.php">Consultar</a></li>
-                <li><a href="./pagina/modificar_repo.php">Modificar</a></li>
-             <li><a href="./pagina/eliminar_repo.php">Eliminar</a></li>
-            	<li><a href="./pagina/reportes_repo.php">Resportes</a></li>
+               <li><a href="./pagina/reportes_repo.php">Resportes</a></li>
 				</ul>
 
           </li>
@@ -290,15 +255,14 @@ ul, ol {
 
               <li><a href="../Seguridad/BBDD/exportar.php">Respaldar</a></li>
                       <li><a href="../Seguridad/BBDD/importar.php">Restaurar</a></li>
-                      <li><a href="../Seguridad/BBDD/backupBBDD.php">Extraer</a></li>
-					   <li><a href="registro_usuario.html">Registrar</a></li>
+                     
+<li><a href="registro_usuario.html">Registrar</a></li>
                       <li><a href="listado_usuarios.php">Listado</a></li>
 				   <ul>
-					   
                    </li>
-				   
-				</tr>
-	
+				 
+				</label>
+    </tr>
 </table>
 </body>
 </html>

@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <?php 
+
 include '../menu.php';
 ?>
-    <meta charset="UTF-8">
+
+
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de registro de alumnos</title>
     
@@ -11,6 +14,7 @@ include '../menu.php';
 
 
     <style>
+
 
         
         .form-container {
@@ -57,6 +61,20 @@ include '../menu.php';
             min-height: 0;
             padding: 20px;
         }
+
+        .my-button {
+			background-color: #4CAF50; /* Green */
+			border: none;
+			color: white;
+			padding: 15px 14px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+	
     </style>
 </head>
 <body>
@@ -67,41 +85,45 @@ include '../menu.php';
             <form>
                 <div class="form-field">
                     <label for="nombre">Nombre del estudiante:</label>
-                    <input type="text" id="nombre" name="nombre" required>
+                    <input type="text" id="nomb_est" name="nomb_est" required>
                 </div>
                 <div class="form-field">
                     <label for="apellido">Apellido del estudiante:</label>
-                    <input type="text" id="apellido" name="apellido" required>
+                    <input type="text" id="apell_est" name="apell_est" required>
                 </div>
                 <div class="form-field">
                     <label for="genero">Género del estudiante:</label>
-                    <select id="genero" name="genero" required>
-                        <option value="">Selecciona una opción</option>
-                        <option value="masculino">Masculino</option>
-                        <option value="femenino">Femenino</option>
+                    <input type="text" id="gen_est" name="gen_est" required>
+                       
+                        
                     </select>
                 </div>
                 <div class="form-field">
                     <label for="fecha_nacimiento">Fecha de nacimiento del estudiante:</label>
-                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                    <input type="date" id="f_n_est" name="fecha_nacimiento" required>
                 </div>
                 <div class="form-field">
                     <label for="acta_nacimiento">Acta de nacimiento del estudiante:</label>
-                    <input type="file" id="acta_nacimiento" name="acta_nacimiento" required>
+                    <input type="file" id="act_nan_est" name="act_nan_est">
                 </div>
                 <div class="form-field">
                     <label for="cedula_representante">Cédula de representante:</label>
-                    <input type="text" id="cedula_representante" name="cedula_representante" required>
-                </div>
-                
-                <div class="form-button">
-                    <button type="submit">Registrar</button>
-                    
-                    
-                    <button type="submit">Cancelar</button>
+                    <input type="text" id="ci_repre" name="ci_repre" required>
+                    <button type="submit" name="submit">Registrar</button>
+                    <button type="submit" name="submit">Cancelar</button>
+                </form>
+                <form action="php/registro_usuario_be.php">
                 </div>
             </form>
         </div>
     </div>
+    <button class="my-button" onclick="atras()">Atras</button>
+
+<script>
+	function atras() {
+		window.location.href = "../welcome.php";
+	}
+    </script>
 </body>
 </html>
+

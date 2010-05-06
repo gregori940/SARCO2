@@ -16,9 +16,10 @@ if(isset($_POST['cerrarSesion'])){
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-    <div class="container">
-        <div class="row mt-3 justify-content-md-center">
-            <div class="col-md-6">
+<div class="container">
+        <div class="center">
+            <div class="absolute">
+       
                 <h1>Hola, bienvenido eres usuario <?php echo '<strong>'.$_SESSION['usuario'].'</strong>'; ?></h1>
             </div>
 

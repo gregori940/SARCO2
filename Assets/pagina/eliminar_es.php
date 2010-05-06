@@ -34,6 +34,7 @@ include '../menu.php';
       border-radius: 5px;
       color: #3c763d;
     }
+    
   </style>
 </head>
 <body>

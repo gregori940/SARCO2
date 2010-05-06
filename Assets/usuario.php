@@ -1,12 +1,15 @@
 <?php 
-
+ include 'UserController.php';
 include 'Database/Db.php';
-include 'RegModel.php';
-include 'RegController.php';
+include 'UserModel.php';
+
 
 ?>
 
 <?php include 'partials/header.php'?>
+
+
+
 
 <div class="container">
     <div class="row mt-3 justify-content-md-center">

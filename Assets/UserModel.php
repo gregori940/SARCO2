@@ -18,7 +18,7 @@
                //echo $rol2;
                 
                 }
-              if ($rol2=="A") {
+              if ($rol2=="A") { 
                  header('Location: welcome.php');
              
              } else if ($rol2=="U") {
