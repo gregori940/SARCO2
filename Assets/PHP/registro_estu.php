@@ -28,9 +28,9 @@ $consulta = "INSERT INTO usuarios (nomb_est, apell_est, gen_est,f_n_est,fech_est
     VALUES('$nomb_est', '$apell_est', '$gen_est', '$f_n_est', '$fech_est', '$act_nan_est', '$ci_repre')";
 $resultado = mysqli_query($conexion, $consulta);
 //verificar que la cedula no se repita en la base de datos//
-    $verificar_ci_repre = mysqli_query($conexion, "SELECT * FROM estudiantes WHERE ci_repre = '$ci_repre'");
+    $verificar_cedula = mysqli_query($conexion, "SELECT * FROM estudiantes WHERE ci_repre = '$ci_repre'");
 
-    if(mysqli_num_rows($verificar_ci_repre) > 0){
+    if(mysqli_num_rows($verificar_cedula) > 0){
         echo '
         <script>
                 alert("Esta cedula ya existe, intenta con otra diferente")
@@ -42,14 +42,14 @@ $resultado = mysqli_query($conexion, $consulta);
         exit();
     }
 //verificar que el cedulrepresentantes no se repita en la base de datos//
-    $verificar_usuario = mysqli_query($conexion, "SELECT * FROM estudiantes WHERE ci_repre = '$ci_repre'");
+    $verificar_nombe_est = mysqli_query($conexion, "SELECT * FROM estudiantes WHERE ci_repre = '$ci_repre'");
 
 
-if(mysqli_num_rows($verificar_estudiante) > 0){
+if(mysqli_num_rows($verificar_nombe_est $verificar_apell_est $verificar_gen_est ) > 0){
     echo '
     <script>
             alert(" Este Usuario ya existe, intenta con otro diferente")
-            window.location ="../index.php";
+            window.location ="index.php";
         </script>
     
     ';
@@ -66,7 +66,7 @@ $ejecutar = mysqli_query($conexion, $query);
         echo '
             <script>
                 alert("Usuario Almacenado Exitosamente");
-                window.location ="../index.php";
+                window.location ="index.php";
             </script>
         
         ';
@@ -74,7 +74,7 @@ $ejecutar = mysqli_query($conexion, $query);
         echo '
         <script>
             alert("Intentalo de nuevo, usuario no almacenado");
-            window.location ="../index.php";
+            window.location ="index.php";
         </script>
     '; 
     }

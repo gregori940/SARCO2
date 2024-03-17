@@ -89,7 +89,7 @@ a:active {
 
 #header {
 	background: #16A085;
-	width:80%;
+	width:8%;
 	font-family:Style Bookman Old ;
 	font-weight:bold;
 	position: fixed;
@@ -97,7 +97,10 @@ a:active {
 	left: 1;
 	z-index:0;
 
-	
+}
+
+ .logo{
+	 
 
 
 }
@@ -180,7 +183,9 @@ ul, ol {
          
           </li>
           <li><a href="">Estudiantes</a>
+
               <ul>
+				  
 
                 <li><a href="consultar_es.php">consultar</a></li>
 				<li><a href=" registrar_es.php">registrar</a></li>
@@ -289,9 +294,11 @@ ul, ol {
 					  </ul>
 					
 					</li>
+					
 				</tr>
 				
 </table>
 </body>
 
 </html>
+

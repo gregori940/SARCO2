@@ -5,6 +5,8 @@
 <?php 
 
 include '../menu.php';
+
+include '../Database/Db.php';
 ?>
 
 <meta charset="UTF-8">
@@ -110,14 +112,15 @@ include '../menu.php';
                 <div class="form-field">
                     <label for="cedula_representante">Cédula de representante:</label>
                     <input type="text" id="ci_repre" name="ci_repre" required>
-                    <button type="submit" name="register">Registrar</button>
-                    <button type="submit" name="submit">Cancelar</button>
-              
-                </div>
-            </form>
+                    </form>
+                <form action="registro_estu.php" method ="POST" class="container" >
+                     
+                    <button>Registrarse</button>
+                </form>
         </div>
     </div>
-
+    </form>
+               
    
     <button class="my-button" onclick="atras()">Atras</button>
 

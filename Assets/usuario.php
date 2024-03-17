@@ -1,4 +1,4 @@
-<?php 
+    <?php 
  include 'UserController.php';
 include 'Database/Db.php';
 include 'UserModel.php';
