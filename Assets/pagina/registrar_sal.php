@@ -30,7 +30,7 @@ include '../menu.php';
       }
       select,
       input[type="number"] {
-        width: 100%;
+        width: 90%;
         padding: 5px;
         margin-top: 0px;
         

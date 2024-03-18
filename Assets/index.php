@@ -12,6 +12,7 @@ include 'UserController.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login y Registro</title>
+    <link rel ="icon" type="image/ico" href="./logo/sarco.ico"/>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>

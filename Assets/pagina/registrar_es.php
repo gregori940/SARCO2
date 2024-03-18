@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+
 <?php 
 
 include '../menu.php';
 ?>
-
 
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -109,14 +110,15 @@ include '../menu.php';
                 <div class="form-field">
                     <label for="cedula_representante">Cédula de representante:</label>
                     <input type="text" id="ci_repre" name="ci_repre" required>
-                    <button type="submit" name="submit">Registrar</button>
+                    <button type="submit" name="register">Registrar</button>
                     <button type="submit" name="submit">Cancelar</button>
-                </form>
-                <form action="php/registro_usuario_be.php">
+              
                 </div>
             </form>
         </div>
     </div>
+
+   
     <button class="my-button" onclick="atras()">Atras</button>
 
 <script>

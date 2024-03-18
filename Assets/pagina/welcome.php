@@ -9,8 +9,7 @@ if(isset($_POST['cerrarSesion'])){
 <!-- se verifica si existe la variable-->
 <?php if(isset($_SESSION['usuario'])) { ?>
     <!-- se incluye el archivo de cabecera -->
-<?php include 'partials/header.php' ?>
- <?php include('menu.php') ?>
+ <?php include('../menu.php') ?>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -30,7 +29,7 @@ if(isset($_POST['cerrarSesion'])){
                 <p> <a href="usuario.php">Registrar Usuario</a></p>
     </div>
 
-<?php include 'partials/footer.php'; ?>
+<?php include '../partials/footer.php'; ?>
 <?php }else{ 
     header('Location: index.php');
  } ?>

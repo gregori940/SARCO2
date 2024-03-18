@@ -2,8 +2,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<?php include '../partials/header.php' ?>
 <?php include '../menu.php';?>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
 
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,7 +42,7 @@
             color: white;
             padding: 8px 8px;
             border: none;
-            border-radius: 4px;
+            border-radius: 1px;
             cursor: pointer;
             transition: background-color 0.3s;
         }
@@ -68,8 +71,9 @@
             <input type="number" id="new-students" name="new-students" required>
             <br>
             <button type="submit">Actualizar sala</button>
-        </form>
-        <p>¿Quieres volver al <a href="/">inicio</a>?</p>
+           </form>
+           <button type="submit">Cancelar</button>
+        
     </div>
 </body>
 </html>

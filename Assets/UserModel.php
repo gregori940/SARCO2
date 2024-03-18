@@ -19,10 +19,10 @@
                 
                 }
               if ($rol2=="A") { 
-                 header('Location: welcome.php');
+                 header('Location: ./pagina/welcome.php');
              
              } else if ($rol2=="U") {
-                header('Location: welcome2.php');
+                header('Location:./pagina/welcome2.php');
               }
                 
              return $rol2; 

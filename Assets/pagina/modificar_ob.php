@@ -4,9 +4,7 @@
 <?php include '../partials/header.php' ?>
 <?php include '../menu.php';?>
 <p>&nbsp;</p>
-
-
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta de Observaciones Estudiantiles</title>
     <style>

@@ -23,7 +23,7 @@ include '../menu.php';
         margin: 0 auto;
       }
       body {
-        margin: 10px;
+        margin: 8px;
       }
       h1 {
         margin-top: 0px;
@@ -36,12 +36,12 @@ include '../menu.php';
       input[type="date"],
       select,
       textarea {
-        width: 100%;
-        padding: 10px;
+        width: 80%;
+        padding: 8px;
         margin-top: 0px;
       }
       input[type="submit"] {
-        margin-top: 10%;
+        margin-top: 5%;
       }
       textarea {
         word-wrap: break-word;
@@ -50,7 +50,7 @@ include '../menu.php';
   </head>
   <body>
     <div class="container">
-      <h1>Registro de observaciones de alumnos</h1>
+      <h1>Registro de observaciones </h1>
       <form action="#" method="post">
         <label for="student-name">Nombre del alumno:</label>
         <input type="text" id="student-name" name="student-name" required />
@@ -58,14 +58,12 @@ include '../menu.php';
         <label for="teacher-name">Nombre del maestro:</label>
         <input type="text" id="teacher-name" name="teacher-name" required />
 
-        <label for="subject">Asignatura:</label>
+        <label for="subject">Salas:</label>
         <select id="subject" name="subject" required>
-          <option value="matematicas">Matemáticas</option>
-          <option value="espanol">Español</option>
-          <option value="ingles">Inglés</option>
-          <option value="ciencias">Ciencias</option>
-          <option value="historia">Historia</option>
-        </select>
+          <option value="sala1">Sala1</option>
+          <option value="sala2">Sala2</option>
+          <option value="sala3">Sala3</option>
+         </select>
 
         <label for="observation">Observación:</label>
         <textarea id="observation" name="observation" rows="4" cols="50" required></textarea>
